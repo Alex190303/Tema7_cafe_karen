@@ -2,4 +2,10 @@
 
 Vi har følgende komponenter:
 
-Footer - Ansvar
+Footer - Natasja
+
+Header - Josefine
+
+Sidebar - Joakim
+
+Indhold - (Alle)
