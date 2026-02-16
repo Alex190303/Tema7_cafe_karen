@@ -9,3 +9,24 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+@font-face {
+  font-family: "proto_grotesklight";
+  src: url("../assets/fonts/protogrotesk-light-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proto_groteskregular";
+  src: url("../assets/fonts/protogrotesk-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proto_groteskbold";
+  src: url("../assets/fonts/protogrotesk-bold-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
