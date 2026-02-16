@@ -10,6 +10,9 @@ img {
   height: auto;
 }
 
+.footer-grid {
+  display: grid;
+}
 @font-face {
   font-family: "proto_grotesklight";
   src: url("../assets/fonts/protogrotesk-light-webfont.woff2") format("woff2");
