@@ -1,0 +1,53 @@
+<header id="Header">
+  <div class="logo">
+    <img src="/imgs/cafekaren_logo.png" alt="Café Karen logo" />
+  </div>
+
+  <ul class="menu">
+    <li><a href="#">ARRENGEMENTER</a></li>
+    <li><a href="#">CAFE KAREN</a></li>
+    <li><a href="#">UDLEJNING</a></li>
+    <li><a href="#">OM HUSET</a></li>
+  </ul>
+</header>
+
+<style>
+  #Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding: 40px 0;
+    background-color: transparent;
+  }
+
+  .logo {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+  }
+
+  .logo img {
+    height: 60px;
+    width: auto;
+  }
+
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 120px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu a {
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  .menu a:hover {
+    opacity: 0.7;
+  }
+</style>
