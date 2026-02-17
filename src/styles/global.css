@@ -9,10 +9,13 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-.footer-grid {
-  display: grid;
+body {
+  background-color: rgba(125, 71, 68, 1);
 }
+footer {
+  background-color: rgba(125, 71, 68, 1);
+}
+
 @font-face {
   font-family: "proto_grotesklight";
   src: url("../assets/fonts/protogrotesk-light-webfont.woff2") format("woff2");
