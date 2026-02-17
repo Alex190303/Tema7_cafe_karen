@@ -4,10 +4,11 @@ import TekstBoks from "../components/Tekst_boks.astro";
 ---
 
 <MainLayout>
-  <TekstBoks title="Caféen" textAlign="center">
+  <TekstBoks title="Caféen">
     <p>Vores cafe er hjertet i huset. Vi rummer alt fra børnefamilier, studerende, gamle aktivister til stamkunder og mange mange andre. Vi går meget op i fællesskab, hvilket du blandt andet kan tage del i ved vores fællesspisninger, som vi afholder hver torsdag aften.</p>
   </TekstBoks>
-  <TekstBoks title="Caféens åbningstider:" textAlign="center">
+  <img class="velkomst_img" src="imgs/velkommen.webp" alt="Et billede af en smilende medarbejder fra Cafe Karen." />
+  <TekstBoks title="Caféens åbningstider:">
     <ul>
       <li>Mandag - kl. 12-16</li>
       <li>Tirsdag - kl. 12-17</li>
@@ -18,7 +19,7 @@ import TekstBoks from "../components/Tekst_boks.astro";
       <li>Søndag - lukket</li>
     </ul>
   </TekstBoks>
-  <TekstBoks title="Menuoversigt:" textAlign="center">
+  <TekstBoks title="Menuoversigt:">
     <ul>
       <li>Mandag (kl. 12-16) - Kun selvbetjening til kaffe og the til en 10'er</li>
       <li>Tirsdag (kl. 12-15) Åben ristet rugbrødssandwich med lækkert fyld - Friske hjemmebagte boller - diverse hjemmebagte kager, cookies og andre lækkerier</li>
@@ -28,8 +29,12 @@ import TekstBoks from "../components/Tekst_boks.astro";
       <li>Lørdag - lukket</li>
       <li>Søndag - lukket</li>
     </ul>
+    <div class="menuoversigt_imgs">
+      <img src="imgs/fællesspisning.webp" alt="Et billede af nogle personer, der tager mad på deres tallerken til fællesspisnig." />
+      <img src="imgs/madlavning2.webp" alt="Et billede af en medarbejder fra cafe Karen, der står med en bageplade med småkager." />
+    </div>
   </TekstBoks>
-  <TekstBoks title="Fællesspisning" textAlign="center">
+  <TekstBoks title="Fællesspisning">
     <p>Hver torsdag spiser vi sammen i Café Karen. Maden bliver serveret kl. 18.00 og dagens menu bliver serveret af vores dejlige personale.</p>
     <br />
     <p>Der er altid vegetarisk alternativ, hvis du kontakter køkkenet på forhånd.</p>
@@ -37,17 +42,26 @@ import TekstBoks from "../components/Tekst_boks.astro";
       <li>Prisen for voksne er 105 kr., og prisen for børn (op til 12 år) er 50 kr.</li>
       <li>Billetter købes her: https://billetto.dk/users/karens-minde-kulturhus</li>
     </ul>
+    <div class="faellesspisning_img">
+      <img src="imgs/fællesspisning2.webp" alt="Et billede fra et af Cafe Karens fællesspisninger." />
+    </div>
   </TekstBoks>
-  <TekstBoks title="Café Karen" textAlign="center">
+  <TekstBoks title="Café Karen">
+    <div class="onsdagsgryde_img">
+      <img src="imgs/ret.webp" alt="Et billede af en Sri Lanka gryderet." />
+    </div>
     <h3>Onsdags gryde:</h3>
     <p>SRI LANKA MED PEBERFRUGT, SPRINGLØG, TOFU OG SØDEKARTOFLER. SERVERES MED RIS OG ÆRTER. - 70 KR.</p>
   </TekstBoks>
-  <TekstBoks title="Vores råvare" textAlign="center">
+  <TekstBoks title="Vores råvare">
+    <div class="raavare_img">
+      <img src="imgs/madlavning.webp" alt="Et billede af en person, der er ved at forberede nogle grøntsager." />
+    </div>
     <p>Vi har stor kærlighed til håndværket, og alt vores mad laves fra bunden. Alt vores mad laves med gode og friske råvare, hvilket sikre en høj kvalitet.</p>
     <br />
     <p>Vi tager inspiration fra både det globale køkken, samt gamle danske klassikere.</p>
   </TekstBoks>
-  <TekstBoks title="Café Karen" textAlign="center">
+  <TekstBoks title="Café Karen">
     <h3>Drikke:</h3>
     <p>VARME DRIKKE</p>
     <ul>
@@ -77,8 +91,12 @@ import TekstBoks from "../components/Tekst_boks.astro";
         <li>MÆLK - 10 KR.</li>
       </ul>
     </ul>
+    <div class="drikkevare_imgs">
+      <img src="imgs/bagBaren.webp" alt="Et billede af en medarbejder fra Cafe Karen, som står bag baren." />
+      <img src="imgs/ flasker.webp" alt="Et billede af diverse flasker af juice man kan få hos Cafe Karen." />
+    </div>
   </TekstBoks>
-  <TekstBoks title="Café Karen" textAlign="center">
+  <TekstBoks title="Café Karen">
     <h3>Vin:</h3>
     <p>RØD</p>
     <ul>
@@ -95,8 +113,11 @@ import TekstBoks from "../components/Tekst_boks.astro";
         <li>KARENS LUKSUS VIN: VORFREUDE, CUVÈE ROSÈ 2021, ØKO (GLAS/FLASKE) - 75/300 KR. Det er en frugtagtig, rund og mineralrig tysk rosévin, kendetegnet ved noter af modne røde frugter og jordbær.</li>
       </ul>
     </ul>
+    <div class="vin_img">
+      <img src="imgs/hustedVin.webp" alt="Et billede af en person, der bærer på nogle vin kasser." />
+    </div>
   </TekstBoks>
-  <TekstBoks title="Gavekort" textAlign="center">
+  <TekstBoks title="Gavekort">
     <p>Giv en Sydhavns-oplevelse til en ven. Køb et gavekort i Café Karen. Gavekort kan købes ved personligt fremmøde i caféen.</p>
   </TekstBoks>
 </MainLayout>

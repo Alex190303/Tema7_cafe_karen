@@ -1,23 +1,27 @@
 ---
-const { title, textAlign } = Astro.props;
+const { title } = Astro.props;
 ---
 
 <div class="tekst_boks">
-  <h2 class={textAlign}>{title}</h2>
+  <h2>{title}</h2>
   <slot />
 </div>
 <style>
   .tekst_boks {
     padding: 1.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     margin: 1rem;
-    margin-left: 15%;
-    margin-right: 15%;
+    max-width: 650px;
+    justify-self: center;
     background-color: #e0d1c4;
     color: #3a302f;
-    font-family: "proto_groteskregular";
+    font-weight: 300;
+    font-family: "proto_grotesk";
   }
 
-  h2.center {
+  h2 {
+    font-weight: 700;
     text-align: center;
   }
 </style>

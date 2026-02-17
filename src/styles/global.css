@@ -9,27 +9,71 @@ img {
   max-width: 100%;
   height: auto;
 }
+.velkomst_img {
+  justify-self: center;
+  max-width: 650px;
+}
+.menuoversigt_imgs {
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+  padding-top: 1rem;
+}
+.faellesspisning_img {
+  max-width: 550px;
+  justify-self: center;
+  padding-top: 1rem;
+}
+.onsdagsgryde_img {
+  max-width: 550px;
+  justify-self: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.raavare_img {
+  max-width: 550px;
+  justify-self: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.drikkevare_imgs {
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+  padding-top: 1rem;
+}
+.vin_img {
+  max-width: 550px;
+  justify-self: center;
+  padding-top: 1rem;
+}
 
 .footer-grid {
   display: grid;
 }
 @font-face {
-  font-family: "proto_grotesklight";
+  font-family: "proto_grotesk";
   src: url("../assets/fonts/protogrotesk-light-webfont.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "proto_groteskregular";
+  font-family: "proto_grotesk";
   src: url("../assets/fonts/protogrotesk-regular-webfont.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "proto_groteskbold";
+  font-family: "proto_grotesk";
   src: url("../assets/fonts/protogrotesk-bold-webfont.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
 }
