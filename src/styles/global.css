@@ -52,6 +52,7 @@ img {
 
 .footer-grid {
   display: grid;
+}
 body {
   background-color: rgba(125, 71, 68, 1);
 }
