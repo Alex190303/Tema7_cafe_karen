@@ -12,6 +12,13 @@
 </header>
 
 <style>
+  @font-face {
+    font-family: "proto_grotesklight";
+    src: url("../assets/fonts/protogrotesk-light-webfont.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
   #Header {
     display: flex;
     justify-content: center;
@@ -19,17 +26,22 @@
     gap: 120px;
     padding: 40px 0;
     background-color: transparent;
+    margin-top: 50px;
   }
 
   .logo {
     position: absolute;
-    left: 40px;
+    left: 20px;
     top: 30px;
   }
 
   .logo img {
-    height: 60px;
+    height: 50px;
     width: auto;
+  }
+
+  .logo img:hover {
+    opacity: 0.7;
   }
 
   .menu {
@@ -41,10 +53,12 @@
   }
 
   .menu a {
+    color: var(--color-text);
     text-decoration: none;
     font-size: 28px;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
+    font-family: "proto_grotesklight";
   }
 
   .menu a:hover {
