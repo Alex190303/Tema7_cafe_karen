@@ -1,65 +1,62 @@
-
-
 <div class="sidebar">
   <a class="switch" href="https://kleinkbh.dk">
-            <img class="klein" src="klein_logo.png" alt="klein">
-        
-            <p class="arrow"></p>
-        </a>
-        
+    <img class="klein" src="klein_logo.png" alt="klein" />
 
-        <a class="brand" href="https://kmkulturhus.dk/">
-        <img class="kulturhus" src="logo-kulturhus.png" alt="kulturhus">
-        </a>
+    <p class="arrow"></p>
+  </a>
+
+  <a class="brand" href="https://kmkulturhus.dk/">
+    <img class="kulturhus" src="logo-kulturhus.png" alt="kulturhus" />
+  </a>
 </div>
 
 <style>
-.sidebar {
+  .sidebar {
     height: 100%; /* Fuld højde */
-    width:100px; /* Bredde på sidebar */
+    width: 80px; /* Bredde på sidebar */
     position: fixed; /* Fastlåst på skærmen */
     top: 0;
     left: 0;
     background-color: transparent; /* Mørk baggrund */
-    padding-top: 100px;
+    padding-top: 170px;
     overflow-x: hidden; /* Forhindr horisontal scroll */
-} 
+  }
 
-.klein{
-max-width: 100%;
-transform: rotate(270deg);
-}
-.klein:hover{
-scale: 1,5px;
-}
+  .klein {
+    max-width: 100%;
+    transform: rotate(270deg);
+  }
+  .klein:hover {
+    scale: 1, 5px;
+  }
 
-.arrow {
-  position: relative;
-  width: 450px;
-  height: 5px;
-  background: black;
-  margin-top: 250px;
-  margin-bottom: 250px;
-  margin-left: -170px;
-  transform: rotate(270deg);
-}
+  .arrow {
+    position: relative;
+    width: 300px;
+    height: 5px;
+    background: black;
+    margin-top: 180px;
+    margin-bottom: 170px;
+    margin-left: -110px;
+    transform: rotate(270deg);
+  }
 
-.arrow::after {
-  content: "";
-  position: absolute;
-  right: -10px;
-  top: -6px;
-  border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent;
-  border-left: 12px solid black;
-}
+  .arrow::after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: -6px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 12px solid black;
+  }
 
-.arrow:hover {
-color: #ff0d00;
-}
+  .arrow:hover {
+    color: #ff0d00;
+  }
 
-.kulturhus{
-max-width: 30%;
-padding-left: 40px;
-}
+  .kulturhus {
+    max-width: 30%;
+    padding-left: 30px;
+  }
 </style>
