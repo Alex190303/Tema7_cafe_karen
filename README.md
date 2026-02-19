@@ -8,4 +8,4 @@ Header - Josefine
 
 Sidebar - Joakim
 
-Indhold - (Alle)
+Indhold - Alex
