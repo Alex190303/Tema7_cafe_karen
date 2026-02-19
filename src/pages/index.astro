@@ -1,10 +1,12 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import TekstBoks from "../components/Tekst_boks.astro";
+import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 ---
 
 <MainLayout>
+  <Header />
   <TekstBoks title="Caféen">
     <p>Vores cafe er hjertet i huset. Vi rummer alt fra børnefamilier, studerende, gamle aktivister til stamkunder og mange mange andre. Vi går meget op i fællesskab, hvilket du blandt andet kan tage del i ved vores fællesspisninger, som vi afholder hver torsdag aften.</p>
   </TekstBoks>
@@ -132,4 +134,5 @@ import Footer from "../components/Footer.astro";
   <TekstBoks title="Gavekort">
     <p>Giv en Sydhavns-oplevelse til en ven. Køb et gavekort i Café Karen. Gavekort kan købes ved personligt fremmøde i caféen.</p>
   </TekstBoks>
+  <Footer />
 </MainLayout>

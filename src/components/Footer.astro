@@ -1,15 +1,15 @@
 <footer>
-  <div class="grid-social">
-    <a href="https://www.instagram.com/karens_minde/?hl=da"><img src="/imgs/image 1.webp" alt="insta" /></a>
-    <a href="https://www.facebook.com/KarensMindeKulturhus/?locale=da_DK"><img src="/imgs/image 2.webp" alt="facebook" /></a>
+  <div class="footer-grid1">
+    <div class="grid-social">
+      <a href="https://www.instagram.com/karens_minde/?hl=da"><img src="/imgs/image 1.webp" alt="insta" /></a>
+      <a href="https://www.facebook.com/KarensMindeKulturhus/?locale=da_DK"><img src="/imgs/image 2.webp" alt="facebook" /></a>
+    </div>
+    <div class="grid-ikoner">
+      <img src="/imgs/fode.png" alt="" />
+      <img src="/imgs/herslevIkon.png" alt="" />
+      <img src="/imgs/hustedVin.png" alt="" />
+    </div>
   </div>
----
-import Header from "./Header.astro";
----
-
-<Header />
-<p>Footer til Karens Minde</p>
-
   <div class="footer-grid">
     <div>
       <h3>Kontakt og adresse:</h3>
@@ -56,11 +56,23 @@ import Header from "./Header.astro";
 </footer>
 
 <style>
+  .footer-grid1 {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-ikoner {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 40px;
+    margin-left: 40rem;
+  }
   .grid-social {
     display: grid;
-
-    border-top: solid;
-    border-color: white;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+    gap: 20px;
+    margin-left: 120px;
   }
   .footer-grid {
     display: grid;
@@ -68,7 +80,7 @@ import Header from "./Header.astro";
     gap: 3rem;
     text-align: center;
     border-top: solid;
-    border-color: white;
+    border-color: rgba(224, 209, 196, 1);
   }
   h3 {
     font-family: "proto_groteskbold";
@@ -93,6 +105,6 @@ import Header from "./Header.astro";
     text-decoration: none;
   }
   a:hover {
-    color: red;
+    color: rgb(241, 239, 237);
   }
 </style>
